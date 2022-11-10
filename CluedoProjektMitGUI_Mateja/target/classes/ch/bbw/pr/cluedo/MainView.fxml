@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1500.0" style="-fx-background-color: lightseagreen; -fx-border-color: black; -fx-border-style: solid; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbw.pr.cluedo.ViewController">
+   <children>
+      <Label layoutX="215.0" layoutY="23.0" prefHeight="31.0" prefWidth="94.0" text="Personen">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <TextArea fx:id="person" layoutX="68.0" layoutY="54.0" prefHeight="200.0" prefWidth="388.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="702.0" layoutY="23.0" prefHeight="31.0" prefWidth="77.0" text="Waffen">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <TextArea fx:id="waffe" layoutX="547.0" layoutY="54.0" prefHeight="200.0" prefWidth="388.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="1205.0" layoutY="23.0" prefHeight="31.0" prefWidth="54.0" text="Orte">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <TextArea fx:id="ort" layoutX="1038.0" layoutY="54.0" prefHeight="200.0" prefWidth="388.0" />
+      <TextArea fx:id="answer" layoutX="641.0" layoutY="409.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="taeter" layoutX="223.0" layoutY="270.0" prefHeight="25.0" prefWidth="85.0" promptText="enter" style="-fx-background-color: lightgrey;" />
+      <TextArea fx:id="tatwaffe" layoutX="694.0" layoutY="273.0" prefHeight="39.0" prefWidth="94.0" promptText="enter" style="-fx-background-color: lightgrey;" />
+      <TextArea fx:id="tatort" layoutX="1189.0" layoutY="270.0" prefHeight="38.0" prefWidth="85.0" promptText="enter" style="-fx-background-color: lightgrey;">
+         <font>
+            <Font size="13.0" />
+         </font></TextArea>
+      <Button fx:id="run" layoutX="703.0" layoutY="371.0" mnemonicParsing="false" onAction="#run" text="Überprüfen" />
+      <Label layoutX="160.0" layoutY="280.0" prefHeight="26.0" prefWidth="54.0" text="Täter:" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="602.0" layoutY="281.0" prefHeight="26.0" prefWidth="77.0" text="Tatwaffe:">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="1120.0" layoutY="280.0" prefHeight="17.0" prefWidth="53.0" text="Tatort:">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
